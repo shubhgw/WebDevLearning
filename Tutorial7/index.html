@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 7</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Fill the form to get admission in COEP cse</h1>
+    <!-- there are two types of action get & post  -->
+    <form action="post">
+        <div>
+            <label for="username">Enter ur username : </label>
+            <input type="text" name="username" placeholder="Enter your username" autofocus>
+        </div>
+        <div>
+            <!-- as both have same name the only one could be selected  -->
+            <!-- for matches with id -->
+            <!-- name acts like variable key name for data handling  -->
+            <!-- id is used to get more readability & use of js -->
+            <!-- value holds the initial default text or user entered data -->
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">-Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">-Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">Subscribe to CodeWithHarry ?</label>
+        </div>
+        <div>
+            <!-- you can use label also but placeholder looks good here ! -->
+            <!-- <label for="comment">Enter here</label> -->
+            <textarea name="comment" id="comment" rows="4" cols="50" placeholder="Enter here"></textarea>
+        </div>
+        <div>
+            <select name="fruit" id="fruit">
+                <option value="banana">banana</option>
+                <option value="apple">apple</option>
+                <option value="kiwi">kiwi</option>
+                <option value="pineapple">pineapple</option>
+            </select>
+        </div>
+    </form>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

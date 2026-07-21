@@ -1,0 +1,43 @@
+
+
+/* class selector  */
+.red{
+    background-color: red;
+}
+
+/* id selector */
+#green{
+    background-color: aquamarine;
+}
+
+/* child selector  */
+div > p{
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+/* descendant selector */
+div p{
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+
+/* universal selector  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* pseudo selector  */
+a:visited{
+    color: aquamarine;
+}
+a:active{
+    background-color:red ;
+}
+a:hover{
+    background-color: black;
+}
+
+p:first-child{
+    background-color: blue;
+}

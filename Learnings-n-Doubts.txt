@@ -1,0 +1,97 @@
+
+@ Tutorial 2
+- basic syntax of html & linking with stylesheet & script & live server
+
+@ Tutorial 3
+- types of tags : self closing tag & paired tag 
+- about meta description
+- opening current html file in mobile via IP address
+
+@ Tutorial 4
+- heading writing via h tags
+- paragraph tag
+- dont go above h4 or highest h6 :)
+- lorem trick
+- inline styling
+
+@ Tutorail 5
+- image showing
+- image error handling using alt="train img not found"
+- height & width adjust according to aspect ratio
+- we dont need to write 200px in inline style but need in stylesheet
+- htmls table tag ( th , td, tr)
+- caption tag inside table tag
+- br tag adds a line brake in between
+- header tells about the page intro
+- footer tells about the page outro
+- html lists ( ordered, unordered , definition )
+
+@ Tutorial 6
+- CLS ; cumulative layout shift 
+- LCP ; Largest Contentful paint ; 
+- LCP score ; How much time does the largest element on page takes to load ( should be less than 2sec)
+- FID ; first input delay
+
+@ Tutorial 7
+- Forms in html 
+- get request & post request
+- id of element is used to give it a unique identification ( its different for every element)
+- label tag with input tag 
+- name , id , value in html ( not understood well )
+
+@ Tutorial 8
+- Inline elements 
+- block elements 
+- their interconversion
+- responsiveness of a site
+
+@ Tutorial 9
+- ID & Classes
+- ID is like Aadhar number 
+- One element can not have more than one ID's 
+- One element can belongs to many classes 
+- Many element can have same class 
+- we use . to target specified named class 
+- we use # to target elements via their ID 
+- ID can be focused in search link using #id
+
+@ Tutorial 10
+- showing media inside the page 
+- audio & video
+- their attributes
+- preload ( none by default, metadata,auto ) - never use metadata ; if u want to preload then do via auto 
+- showing svg 
+- iframes to embed a website into your website
+
+@ Tutorial 11
+- Importance of tags in SEO
+- Semantic tags
+
+@ Tutorial 12
+- Exercise 1
+
+@ Tutorial 13
+- HTML entities
+- pre tag
+- &copy; for copyright symbol
+- &nbsp; for extra consideralbe spaces
+- Quotation tag ( for SEO )
+
+@ Tutorail 14
+- CSS intro
+- Different(3) ways to write CSS code 
+
+@ Tutorial 15
+- basics of CSS
+
+@ Tutorail 17
+- classes & id use classes
+- id is more specific than class
+- child selectors
+- descendant selector
+- universal selector
+- pseudo selector
+- first-child selector
+
+@ Tutorial 18
+-
