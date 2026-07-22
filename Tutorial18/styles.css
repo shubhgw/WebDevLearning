@@ -1,0 +1,24 @@
+* {
+    /* lets remove margin n padding for everything  */
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: aqua;
+}
+
+.box1 {
+    color: yellow;
+    padding: 10px;
+    margin: 5px;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: black; */
+    border: 3px solid black;
+    height: 100px;
+}
+
+.box2 {
+    color: red;
+}

@@ -1,0 +1,26 @@
+
+body{
+    background-color: rgb(198, 255, 247);
+}
+
+h1{
+    font-family: philosopher;
+    text-align: center;
+}
+div{
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+p{padding: 20px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(117, 117, 255);
+  font-family: jetbrains mono;
+  font-size: 20px;
+
+}
+div p:first-child{
+    color: red;
+    background-color: rgb(255, 255, 123);
+}

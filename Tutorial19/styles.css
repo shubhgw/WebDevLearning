@@ -1,0 +1,14 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-indent: 60px;
+    font-family: philosopher;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: dashed;
+} 
