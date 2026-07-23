@@ -10,12 +10,12 @@
     background-color: aquamarine;
 }
 
-/* child selector  */
+/* child selector  : sirf :first-child ko lapetega */
 div > p{
     color: blueviolet;
     background-color: antiquewhite;
 }
-/* descendant selector */
+/* descendant selector : saare childs ko lapet dega */
 div p{
     color: blueviolet;
     background-color: antiquewhite;

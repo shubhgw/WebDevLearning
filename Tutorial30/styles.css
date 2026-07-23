@@ -1,0 +1,35 @@
+
+:root{
+    --color:rgb(92, 255, 163);
+    --sec-color:rgb(164, 255, 203);
+    --default-padding:20px;
+    --sec-text-opacity:0.8;
+    /* these are global variables */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    background-color: var(--color);
+}
+.container{
+    background-color: var(--sec-color);
+    opacity: var(--sec-text-opacity);
+}
+
+ul{
+    display: flex;
+    li{
+        list-style: none;
+        padding: var(--default-padding);
+    }
+}
+
+li:first-child{
+    --color:rgb(0, 255, 60);
+    /* for here --color is local variable */
+    background-color: var(--color);
+}

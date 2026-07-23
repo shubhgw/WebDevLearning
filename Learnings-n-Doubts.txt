@@ -10,15 +10,15 @@
 @ Tutorial 4
 - heading writing via h tags
 - paragraph tag
-- dont go above h4 or highest h6 :)
-- lorem trick
+- dont go above h4 or highest h6
+-❤️ lorem trick
 - inline styling
 
 @ Tutorail 5
 - image showing
 - image error handling using alt="train img not found"
 - height & width adjust according to aspect ratio
-- we dont need to write 200px in inline style but need in stylesheet
+-❤️ we dont need to write 200px in inline style but need in stylesheet
 - htmls table tag ( th , td, tr)
 - caption tag inside table tag
 - br tag adds a line brake in between
@@ -26,7 +26,7 @@
 - footer tells about the page outro
 - html lists ( ordered, unordered , definition )
 
-@ Tutorial 6
+@ Tutorial 6 ❤️
 - CLS ; cumulative layout shift 
 - LCP ; Largest Contentful paint ; 
 - LCP score ; How much time does the largest element on page takes to load ( should be less than 2sec)
@@ -34,9 +34,9 @@
 
 @ Tutorial 7
 - Forms in html 
-- get request & post request
+-❤️ get request & post request
 - id of element is used to give it a unique identification ( its different for every element)
-- label tag with input tag 
+-❤️ label tag with input tag 
 - name , id , value in html ( not understood well )
 
 @ Tutorial 8
@@ -47,7 +47,7 @@
 
 @ Tutorial 9
 - ID & Classes
-- ID is like Aadhar number 
+-❤️ ID is like Aadhar number 
 - One element can not have more than one ID's 
 - One element can belongs to many classes 
 - Many element can have same class 
@@ -59,7 +59,7 @@
 - showing media inside the page 
 - audio & video
 - their attributes
-- preload ( none by default, metadata,auto ) - never use metadata ; if u want to preload then do via auto 
+-❤️ preload ( none by default, metadata,auto ) - never use metadata ; if u want to preload then do via auto 
 - showing svg 
 - iframes to embed a website into your website
 
@@ -86,12 +86,163 @@
 
 @ Tutorail 17
 - classes & id use classes
-- id is more specific than class
+-❤️ id is more specific than class
 - child selectors
 - descendant selector
-- universal selector
+-❤️ universal selector
 - pseudo selector
 - first-child selector
 
 @ Tutorial 18
--
+- box model of CSS
+- padding 
+- removing m & p of all elements using universal selector
+-❤️ width of element = width of content + width of right & left border + width of right & left padding + width of right & left margin 
+- same goes for height calculation
+-❤️ if we apply box-sizing:border-box & we have already given a width say x then x=content width + padding width + border width ( not considering margin bcoz its outsider )
+- margin collapse : when margin of two elements is collapsing then the maximum margin will be seted overall
+
+@ Tutorial 19
+- fonts seperated by commas means if first font is not available then second fonts will be taken & so on.....
+- h1 default font size is 32
+- paragraphs default font size is 16
+- line height 
+- ❤️text overflow - clamp,hidden
+- word break at end of line
+- text align : center, .....
+- color codes
+
+@ Tutorial 21
+- css specificity
+- cascade algorithm
+- among all given classes for an element the last class have more specificity
+✅❤️✅ : specicificity order : !important > inline > id > class or attribute > element selector > universal selector
+- Attribute selector 
+- Origin
+- !importance
+-❤️ specicificity calculation :
+    - universal selector : 0
+    - element selector : 1
+    - class selector, attribute selector , pseudo selector : 10
+    - ID selector : 100
+    - Inline selector : 1000
+
+    ex; a.harry-class.rohan-class[href]:hover{
+        color:blue;
+    }
+    its 1+10+10+10+10 = 41
+
+@ Tutorail 22
+- 196px = 1inch ( its not an responsive unit )
+- vw : viewport width ; ex; 50vw : 50% of viewport width
+- margin: auto ; works with only block elements not with inline block elements
+- span mei width nhi lga sakte
+- margin : 1 2 ; 1 stand for vertical margins(top n bottom) while 2 stand for horizontal margin(right n left)
+- width:100vw ; means 100% of viewport width availabel
+- width:2em ; means twice of inherited width
+- html is a root element 
+- width:3rem ; thrice of inherited via root element
+- root  element have font size of 12px by default
+- vmin ; vo length jo minimum ho ex; for mobile vmin is width & for laptop vmin is height
+- ❤️width:30vmin ; means width is 30% of vmin( mobile:width, laptop:height)
+- height:50vmax ; means height is 50% of vmax( mobile:height, laptop:width) 
+- width:50% ; parent ke inherited width ka 50%
+- TIP : always use responsive units !
+
+@ Tutorial 23
+- different types of display properties
+- visibility : hidden ( hide the element box but keep the space taken by that element box)
+- display : block, inline, inline-block, none, flex, grid, inline-flex
+- block : take whole line 
+- inline : ignores the top(margin n padding) and width effect , dont take whole line 
+- inline-block : allows upper line attributes but take whole line
+- none : hide the elements box & space taken by it
+- flex : its too much flexible than others , use justify-content:center , its block level element
+- inline-flex : same as flex but its inline
+- grid : divides the box into different sections but its not flexible
+
+@ Tutorial 24
+- box-shadow : h-offset v-offset blur spread color inset
+- text-shadow : h-offset v-offset blur spread color
+- outline : like border but not considered in box model & curves with border automatically
+
+@ Tutorial 25
+- list styling 
+- list element : marker item 
+- by default marker is outside the items box 
+- to take marker inside the items box use ; list-style-position:inside
+- list-style-type:"❤️" to change the marker into an emogi
+- list-style-image:"url" to change the marker into an image
+
+@ Tutorial 26
+- CSS overflow controlling
+- overflow : auto scroll hidden 
+- white-space : wrap no-wrap 
+- text-overflow:ellipsis ; ex : Hey I am shubham and I am ...
+
+@ Tutorial 28
+- CSS positioning
+- position : static relative absolute fixed sticky 
+- static : by default
+- relative : its just help to position his child elements
+- absolute : element is fixed wrt page
+- fixed : element is fixed wrt window
+- sticky : is combo of absolute & fixed ( behave as absolute till it comes in window and then behaves as fixed (like NYC cards))
+
+@ Tutorial 29
+- Exercise 3 - designing a card given 
+
+@ Tutorial 30
+- css variables
+- declaring variabels using :root
+- using declared variables
+- global and local variables
+- giving backup variables | values
+
+@ Tutorial 31
+- media queries for responsiveness
+- landspace(width>height) & protrait (width<height)
+- @media only screen & conditions
+- @media screen and (orentation:landscape){
+    background-color:purple
+}
+
+@ Tutorial 33
+- exercise 3 : designing a navbar
+
+@ Tutorial 34 - don't use these properties 
+- imagine newspaper having image on a place & remaining is filled with text . to do this we use float:direction; & display:flow-root;
+
+@ Tutorial 35
+- more on css selectors
+- selecting first childs
+- selecting first line(redering in device) 
+- before and after ( content adding using " " ) these are pseudo elements not selectors
+- editing selected text by user
+- selecting placeholder of an input 
+
+@ Tutorial 38
+- css flexboxes
+- flex directions (by default left to right ; Horizontal)
+- justify-content: center, space-around , space-between 
+- align-items(for one line): center
+- if we have multiple lines then use align-content 
+- flex-start , flex-end , baseline, row-reverse , column-reverse values  
+- main axis : in the direction of flex direction 
+- cross axis : perpendicular to main axis 
+- justify content & align items work according to main axis 
+- there is main-size & cross-size for main axis & cross axis 
+- ❤️ flex-wrap: wrap or no-wrap(by default)
+- there is no justify-items in flexbox
+- wrap reverse
+- flex-flow : row wrap 
+- gap : 20px 10px ; row-gap column-gap
+- higher order element will appear in last 
+- default order is 0
+- flex-grow : 0 by default, 1;takes the all remaining space n distribute between all the items 
+- if applied on only one then its width will be more than others 
+- flex-shrink : speed ; 0 or 1 or 2 or ......
+- align-self for a particular element 
+- 
+
+learnings 28 to 38 ,17

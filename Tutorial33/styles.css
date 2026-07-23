@@ -1,0 +1,53 @@
+
+
+:root{
+    --background-color:rgb(0, 237, 158);
+    --navbar-color:aqua;
+    --navbar-border-color:black;
+    --navbar-font:'JetBrains Mono';
+    --navbar-font-weight:bold;
+    --navbar-font-size:15px;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+nav{
+    background-color: var(--navbar-color);
+    border: 1px solid var(--navbar-border-color);
+}
+
+ul {
+    display: flex;
+    column-gap: 40px;
+    list-style-type: none;
+    padding: 20px 50px;
+    justify-content: end;
+}
+
+li button{
+    background-color: var(--navbar-color);
+    border: 0px solid black;
+    font-family: var(--navbar-font);
+    font-weight: var(--navbar-font-weight);
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: var(--navbar-font-size);
+
+}
+
+li button:hover{
+    background-color: rgb(132, 255, 255);
+}
+
+li button:active{
+    background-color: rgb(0, 191, 191);
+}

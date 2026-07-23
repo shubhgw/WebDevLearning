@@ -1,0 +1,123 @@
+:root {
+    --background-color: rgb(255, 245, 220);
+    --navbar-color: rgb(254, 242, 133);
+    --navbar-border-color: black;
+    --navbar-font: 'JetBrains Mono';
+    --navbar-font-weight: bold;
+    --navbar-font-size: 15px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    height: 2000px;
+}
+
+nav {
+    background-color: var(--navbar-color);
+    border: 1px solid var(--navbar-border-color);
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+footer {
+    background-color: var(--navbar-color);
+    border: 1px solid var(--navbar-border-color);
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+footer p {
+    padding: 5px 15px;
+    font-family: var(--navbar-font);
+}
+
+
+ul {
+    display: flex;
+    column-gap: 40px;
+    list-style-type: none;
+    padding: 5px 50px;
+    justify-content: end;
+}
+
+.icon {
+    width: 50px;
+    border-radius: 100px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    background-color: rgb(255, 203, 70);
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgb(46, 46, 46);
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.sigma-div{
+    display: flex;
+    justify-content: center;
+}
+
+.sigma{
+    font-family: var(--navbar-font);
+    font-size: 30px;
+    background-color: rgb(255, 203, 70);
+    padding: 5px 40px;
+    border-radius: 30px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px rgb(255, 232, 83);
+    margin-top: 10px;
+}
+
+
+.box span {
+    font-family: var(--navbar-font);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+li button {
+    background-color: var(--navbar-color);
+    border: 0px solid black;
+    font-family: var(--navbar-font);
+    font-weight: var(--navbar-font-weight);
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: var(--navbar-font-size);
+
+}
+
+li button:hover {
+    background-color: rgb(224, 255, 132);
+}
+
+li button:active {
+    background-color: rgb(127, 232, 15);
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}

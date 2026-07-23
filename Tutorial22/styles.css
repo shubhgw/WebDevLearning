@@ -1,0 +1,21 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.box{
+    box-sizing: border-box;
+    width: 70vw;
+    border: 4px solid aqua;
+    margin: auto;
+}
+
+.container{
+    /* box-sizing: border-box; */
+    width: 70vw;
+    border: 4px solid aqua;
+    margin: 50px auto;
+}

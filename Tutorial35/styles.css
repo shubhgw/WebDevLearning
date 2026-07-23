@@ -1,0 +1,42 @@
+
+.boxes:first-child{
+    background-color: rgb(32, 244, 226);
+}
+.box:first-child{
+    background-color: pink;
+}
+
+.boxes *{
+    color: blueviolet;
+    font-size: 40px;
+    border: 2px solid black;
+}
+
+[data-color="primary"]{
+    margin: 20px;
+    padding: 10px;
+}
+
+.box:nth-child(2)::first-line{
+    color: rgb(29, 74, 59);
+}
+
+/* we can take even & odd also at place of 2  */
+/* nth last child is also available her  */
+
+.boxes::before{
+    content: 'this is before for every boxes div';
+}
+
+.boxes::after{
+    content: 'this is after for every boxes div';
+}
+
+::selection{
+    color: blue;
+    background-color: black;
+}
+
+.box:first-child::first-letter{
+    font-size: 125px;
+}
